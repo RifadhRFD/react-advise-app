@@ -26,12 +26,15 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <div className="quote">  
-        <h2>{advise}</h2>
-      </div>
-      <button className="Btn-Advice" onClick={fetchNewAdvise} >Advice Me</button>
+    
+      <div className="App">
+        <div className="advise">  
+          <h2 className="text">{advise}</h2>
+          <button className="Btn-Advice" onClick={fetchNewAdvise} >Advice Me</button>
+        </div>
+        
     </div>
+    
   );
 }
 

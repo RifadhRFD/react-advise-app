@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+@import url('https://fonts.googleapis.com/css?family=Assistant:300');
+
+
+#root,html,body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.advise{
+    height: 250px;
+    width: 550px;
+    border: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 1.2;
+    hanging-punctuation: first;
+}
+
+.text{
+    align-items: center;
+    justify-content: center;
+}
+
+.Btn-Advice{
+    border-radius: 10px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: .5rem;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    border: 1px solid rgba(0,0,0,0.6);
+}
+
+.Btn-Advice:hover{
+    background-color: rgb(154, 191, 233);
+}
+
