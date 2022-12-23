@@ -32,6 +32,9 @@ function App() {
           <h2 className="text">{advise}</h2>
           <button className="Btn-Advice" onClick={fetchNewAdvise} >Tell me something</button>
         </div>
+        <footer>
+          <p className="footer">Developed by @Rifadh</p>
+        </footer>
         
     </div>
     
