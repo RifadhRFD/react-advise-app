@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(161, 245, 217);
 
 }
 
@@ -21,6 +22,9 @@
 }
 
 .advise{
+    align-items: center;
+    justify-content: center;
+    place-items: center;
     height: 250px;
     width: 550px;
     border: 1px solid #000;
@@ -28,19 +32,18 @@
     font-size: 28px;
     line-height: 1.2;
     hanging-punctuation: first;
-}
-
-.text{
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(240, 222, 123);
 }
 
 .Btn-Advice{
+    display: grid;
+    grid-template-rows: repeat(200px,2fr);
+    gap: 20px;
     border-radius: 10px;
     font-family: 'Assistant', sans-serif;
     font-weight: bold;
     display: block;
-    padding: .5rem;
+    padding: 10px;
     outline: none;
     font-size: 18px;
     background: none;
@@ -48,6 +51,6 @@
 }
 
 .Btn-Advice:hover{
-    background-color: rgb(154, 191, 233);
+    background-color: rgb(201, 183, 243);
 }
 

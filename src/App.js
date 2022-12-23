@@ -30,7 +30,7 @@ function App() {
       <div className="App">
         <div className="advise">  
           <h2 className="text">{advise}</h2>
-          <button className="Btn-Advice" onClick={fetchNewAdvise} >Advice Me</button>
+          <button className="Btn-Advice" onClick={fetchNewAdvise} >Tell me something</button>
         </div>
         
     </div>
