@@ -47,6 +47,7 @@
 
 .Btn-Advice:hover{
     background-color: rgb(215, 203, 245);
+    cursor: pointer;
 }
 
 .footer{
